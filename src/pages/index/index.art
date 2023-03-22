@@ -8,7 +8,7 @@
 
   <body>
     <header class="site-head">
-    {{include '../../components/topbar/topbar.art'}}  
+      {{include '../../components/topbar/topbar.art'}}
       <nav class="main-nav">
         <div class="center-wrap">
           <ul class="main-nav-list">
@@ -123,9 +123,9 @@
       </div>
     </header>
     <section class="banner" id="banner">
-      {{include './components/carousel/carousel.art'}}
+      {{include './components/slider/slider.art'}}
       <div class="center-wrap">
-      {{include './components/carousel/btns.art'}}
+        {{include './components/slider/btns.art'}}
         <div class="v-menu-box" id="v-menu-box">
           <nav class="v-menu" id="v-menu">
             <ul>
